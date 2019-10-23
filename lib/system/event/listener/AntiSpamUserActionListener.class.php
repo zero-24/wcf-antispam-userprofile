@@ -131,11 +131,11 @@ class AntiSpamUserActionListener implements IParameterizedEventListener
 	}
 
 	/**
-	 * Parses the content and return true whether the post should be blocked
+	 * Trigger a UserAction to permanetly ban the passed UserID
 	 *
-	 * @param   string   $text  The text to be parsed
+	 * @param   string   $userID  The userID to ban
 	 *
-	 * @return  boolean  True whether the post should be blocked
+	 * @return  void
 	 *
 	 * @since   1.0.0
 	 */
