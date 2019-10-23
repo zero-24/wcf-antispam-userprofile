@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.board.canBypassAntiSpamUserprofile"><![CDATA[Use all characters without restriction in user profile fields]]></item>
+		<item name="wcf.acp.group.option.user.board.canBypassAntiSpamUserprofile.description"><![CDATA[Members of this user group can use any character in the user profile, regardless of the anti-spam restrictions.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.user_antispamuserprofile_enable"><![CDATA[Aktivate AntiSpam Userprofil]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_enable.description"><![CDATA[Activates the AntiSpam Userprofile Plugin. With every new save of a user it is checked if there are not allowed characters / words in the user fields. If yes there is the option to empty these fields and to lock the user directly permanently.]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_action"><![CDATA[Action]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_action.description"><![CDATA[What should happen to the Findings? clean only deletes the invalid characters / words from the fields, ban only blocks the user, and both locks the user and removes the characters words from the fields.]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_banreason"><![CDATA[Ban Reason]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_banreason.description"><![CDATA[This is the text that is displayed to the user as the reason for the permanent ban.]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_whitelist"><![CDATA[Character Whitelist]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_whitelist.description"><![CDATA[A comma-separated list of non-ascii characters that should be allowed.]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_blacklist"><![CDATA[Custom Blacklist]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_blacklist.description"><![CDATA[A comma-separated list of additional characters / words to block.]]></item>
+	</category>
+</language>

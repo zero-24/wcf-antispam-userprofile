@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.board.canBypassAntiSpamUserprofile"><![CDATA[Alle Zeichen ohne Beschränkung im Benutzerprofiel verwenden]]></item>
+		<item name="wcf.acp.group.option.user.board.canBypassAntiSpamUserprofile.description"><![CDATA[Mitglieder dieser Benutzergruppe können alle Zeichen beliebig im Benutzerprofiel verwenden, unabhängig von den Anti-Spam Beschränkungen]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.user_antispamuserprofile_enable"><![CDATA[AntiSpam Userprofile aktivieren]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_enable.description"><![CDATA[Aktiviert das AntiSpam Userprofile Plugin. Bei jedem neue speichern eines Benutzers wird überpüruft ob nicht erlaubte Zeichen / Wörter in den Benutzerfeldern enthalten sind. Wenn ja gibt es die option diese Felder zu leeren und den Benutzer direkt dauerhaft zu sperren.]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_action"><![CDATA[Aktion]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_action.description"><![CDATA[Was soll mit den Findings passieren? clean löscht nur die ungültigen Zeichen / wörter aus den Feldern, ban blockiert nur den Benutzer und both sperrt den Benutzer und entfernt die Zeichen Wörter aus den Feldern]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_banreason"><![CDATA[Ban Grund]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_banreason.description"><![CDATA[Dies ist der Text der dem Benutzer als Grund für den permanenten Ban angzeigt wird.]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_whitelist"><![CDATA[Zeichen Whitelist]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_whitelist.description"><![CDATA[Eine komma-separierte Liste von non-ascii Zeichen welche erlaubt sein sollen.]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_blacklist"><![CDATA[Eigene Blacklist]]></item>
+		<item name="wcf.acp.option.user_antispamuserprofile_blacklist.description"><![CDATA[Eine komma-separierte Liste von zusätzlichen Zeichen / Wörtern welche blockiert werden sollen.]]></item>
+	</category>
+</language>

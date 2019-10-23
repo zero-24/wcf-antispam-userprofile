@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com/XSD/maelstrom/eventListener.xsd">
+	<import>
+		<eventlistener name="AntiSpamUserActionUser">
+			<eventclassname>wcf\data\user\UserAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<environment>user</environment>
+			<listenerclassname>wcf\system\event\listener\AntiSpamUserActionListener</listenerclassname>
+			<inherit>1</inherit>
+			<niceValue>120</niceValue>
+		</eventlistener>
+		<eventlistener name="AntiSpamUserProfileActionUser">
+			<eventclassname>wcf\data\user\UserProfileAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<environment>user</environment>
+			<listenerclassname>wcf\system\event\listener\AntiSpamUserActionListener</listenerclassname>
+			<inherit>1</inherit>
+			<niceValue>120</niceValue>
+		</eventlistener>
+	</import>
+</data>

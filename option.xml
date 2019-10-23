@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<options>
+			<option name="user_antispamuserprofile_enable">
+				<categoryname>security.antispam</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions>user_antispamuserprofileaction,user_antispamuserprofile_banreason,user_antispamuserprofile_whitelist,user_antispamuserprofile_blacklist</enableoptions>
+			</option>
+			<option name="user_antispamuserprofile_action">
+				<categoryname>security.antispam</categoryname>
+				<optiontype>select</optiontype>
+				<defaultvalue>both</defaultvalue>
+				<selectoptions><![CDATA[both
+ban
+clean]]></selectoptions>
+			<option name="user_antispamuserprofile_banreason">
+				<categoryname>security.antispam</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue><![CDATA[This Account has been automaticly banned by the system]]></defaultvalue>
+			</option>
+			<option name="user_antispamuserprofile_whitelist">
+				<categoryname>security.antispam</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue/>
+			</option>
+			<option name="user_antispamuserprofile_blacklist">
+				<categoryname>security.antispam</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue/>
+			</option>
+		</options>
+	</import>
+</data>
