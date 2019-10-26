@@ -4,7 +4,7 @@
  * @copyright   Copyright (C) 2019 Tobias Zulauf (https://forum.joomla.de). All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
-namespace wbb\system\event\listener;
+namespace wcf\system\event\listener;
 
 use wcf\data\user\User;
 use wcf\data\user\UserAction;
