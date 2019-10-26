@@ -65,6 +65,12 @@ class AntiSpamUserActionListener implements IParameterizedEventListener
 
 		if (in_array($actionName, ['create', 'update']))
 		{
+			// Make sure we have the options parameter
+			if (!isset($parameters['options']))
+			{
+				return;
+			}
+
 			foreach ($eventObj->getObjects() as $object)
 			{
 				$objectId = $object->getObjectID();
