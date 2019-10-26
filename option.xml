@@ -15,6 +15,7 @@
 				<selectoptions><![CDATA[both
 ban
 clean]]></selectoptions>
+			</option>
 			<option name="user_antispamuserprofile_banreason">
 				<categoryname>security.antispam</categoryname>
 				<optiontype>text</optiontype>
