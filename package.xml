@@ -4,7 +4,7 @@
 		<packagename><![CDATA[Anti-Spam Userprofile]]></packagename>
 		<packagename language="de">Anti-Spam Userprofile</packagename>
 		<packagedescription>This is an anti-spam plugin that automatically bans users and cleans user profile values with non-ascii chars and from the custom blacklists.</packagedescription>
-		<packagedescription language="de"><![CDATA[Dieses Anti-Spam-Plugin sperrt Benutzer und entfernt automaisch nicht-aszianischen Zeichen sowie von einer eigenen blacklist.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Dieses Anti-Spam-Plugin sperrt Benutzer und entfernt automatisch nicht-aszianischen Zeichen sowie von einer eigenen blacklist.]]></packagedescription>
 		<version>1.0.0</version>
 		<date>2019-10-23</date>
 		<license>GPL</license>

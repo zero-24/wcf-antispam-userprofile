@@ -16,4 +16,4 @@ In addition, the plugin can be turned off for each user group. The user group op
 
 ## Plugin Store
 
-This plugin can also been found in the Woltlab Plugin Store: [[WCF] Anti-Spam Userprofile](https://pluginstore.woltlab.com/)
+This plugin can also been found in the Woltlab Plugin Store: [[WCF] Anti-Spam Userprofile](https://pluginstore.woltlab.com/file/3084-wcf-anti-spam-benutzerprofil/)
