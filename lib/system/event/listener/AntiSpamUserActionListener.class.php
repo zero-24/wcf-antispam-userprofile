@@ -98,7 +98,7 @@ class AntiSpamUserActionListener implements IParameterizedEventListener
 
 				foreach ($parameters['options'] as $option => $value)
 				{
-					if ($this->checkContent($value) === false)
+					if ($this->checkContent($value) === true)
 					{
 						// We found not allowed content here..
 						$newOptions[$option] = '';
