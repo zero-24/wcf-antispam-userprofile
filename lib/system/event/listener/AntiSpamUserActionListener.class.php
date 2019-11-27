@@ -10,6 +10,7 @@ use wcf\data\user\User;
 use wcf\data\user\UserAction;
 use wcf\system\event\listener\IParameterizedEventListener;
 use wcf\system\WCF;
+use wcf\util\StringUtil;
 
 /**
  * Anti Spam Userprofile User Listener
@@ -150,7 +151,7 @@ class AntiSpamUserActionListener implements IParameterizedEventListener
 			// Permanetly ban the user
 			(new UserAction([(new User($userID))], 'ban', [
 				'banExpires' => 0,
-				'banReason'  => htmlspecialchars(USER_ANTISPAMUSERPROFILE_BANREASON, ENT_COMPAT, 'UTF-8'),
+				'banReason'  => StringUtil::encodeHTML(USER_ANTISPAMUSERPROFILE_BANREASON, ENT_COMPAT, 'UTF-8'),
 			]))->executeAction();
 	}
 
