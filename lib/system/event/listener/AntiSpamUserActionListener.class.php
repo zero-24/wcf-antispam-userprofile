@@ -151,7 +151,7 @@ class AntiSpamUserActionListener implements IParameterizedEventListener
 			// Permanetly ban the user
 			(new UserAction([(new User($userID))], 'ban', [
 				'banExpires' => 0,
-				'banReason'  => StringUtil::encodeHTML(USER_ANTISPAMUSERPROFILE_BANREASON, ENT_COMPAT, 'UTF-8'),
+				'banReason'  => StringUtil::encodeHTML(USER_ANTISPAMUSERPROFILE_BANREASON),
 			]))->executeAction();
 	}
 
